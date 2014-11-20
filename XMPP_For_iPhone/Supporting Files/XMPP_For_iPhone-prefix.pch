@@ -1,0 +1,21 @@
+//
+//  XMPP_For_iPhone-prefix.pch
+//  XMPP_For_iPhone
+//
+//  Created by xu lingyi on 11/18/14.
+//  Copyright (c) 2014 xuly. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iOS SDK 6.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define Host @"128.199.131.159"
+#define Domain @"@127.0.0.1"
